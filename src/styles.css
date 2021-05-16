@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #ad0d0d;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #ad0d0d;
+  font-weight: 800;
+}
+
+button:hover,
+button:focus {
+  background-color: rgba(190, 5, 5, 0.699);
+  border: 2px solid transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 800;
+}
+
+button:active,
+button:disabled {
+  background-color: #ad0d0d;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 800;
+}
